@@ -1,0 +1,7 @@
+<div class="galery">
+  <div class="cards" *ngFor="let personaje of personajes">
+    <img src="{{ personaje.foto.src }}" alt="{{ personaje.foto.alt }}" />
+    <h3>{{ personaje.nombre }}</h3>
+    <p>PODER: {{ personaje.poder | number }}</p>
+  </div>
+</div>

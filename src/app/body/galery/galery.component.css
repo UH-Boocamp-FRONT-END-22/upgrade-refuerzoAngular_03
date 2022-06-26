@@ -1,0 +1,17 @@
+.galery {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cards {
+  border-style: dotted;
+  margin-left: 100px;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.cards img {
+  width: 300px;
+  height: 300px;
+}
